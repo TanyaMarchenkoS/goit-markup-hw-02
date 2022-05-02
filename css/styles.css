@@ -1,0 +1,46 @@
+/* Главная */
+body {
+    color: #757575;
+    background-color: #FFFFFF;
+}
+/* цвет лого */
+.logo {
+    color: #000000;
+}
+.span-logo {
+    color: #2196F3;
+}
+/* убирает маркировки возле списка */
+ul {
+    list-style: none;
+}
+/* блок навигации */
+.sate-nav {
+    color:#212121;
+}
+.link-nav {
+    color: #2196F3;
+}
+/* контакти ???*/
+
+
+/* Герой */
+.title {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+
+
+
+
+
+/* вторичный текст текста #212121 чорний */
+/* цвет основного текста #757575 светлее чорного*/
+/* белый #FFFFFF; */
+/* акцент #2196F3 */
