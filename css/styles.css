@@ -15,31 +15,78 @@ ul {
     list-style: none;
 }
 /* блок навигации */
-.sate-nav {
-    color:#212121;
+.site-nav  {
+    color: #212121;
 }
-.link-nav {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196F3;
 }
-/* контакти ???*/
-
-
+.site-nav .link.current {
+    color: #2196F3;
+}
+/* контакти */
+.contacts {
+    color: #757575;
+}
+.contacts .link-mailto:hover,
+.contacts .link-mailto:focus {
+    color: #2196F3;
+}
 /* Герой */
-.title {
+.hero {
     color: #FFFFFF;
     background-color: #2F303A;
 }
-h1 {
+.hero-title {
     color: #FFFFFF;
     text-transform: uppercase;
     text-align: center;
 }
-    
-
-
-
-
-
+/* Кнопка */
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* особенности */
+.specific-title {
+    color: #212121;
+}
+ /* Чем мы занимаемся */
+ .work-title {
+     color: #212121;
+ }
+ /* команда */
+ .team {
+     background-color: #F5F4FA;
+ }
+ .team-title,
+ .team-name {
+     color: #212121;
+     text-align: center;
+ }
+ .team-item {
+     background-color: #FFFFFF;
+ }
+ .team-position {
+     text-align: center;
+ }
+/* Подвал */
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: #2196F3;
+}
+.logo-white {
+    color: #FFFFFF;
+}
+.address-footer {
+    color: FFFFFF;
+}
+.contact-link {
+    color: rgba(255, 255, 255, 0.6;
+}
 /* вторичный текст текста #212121 чорний */
 /* цвет основного текста #757575 светлее чорного*/
 /* белый #FFFFFF; */
