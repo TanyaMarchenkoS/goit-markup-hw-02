@@ -79,6 +79,7 @@ ul {
     line-height: 1.88;
     color: #FFFFFF;
     background-color: #2196F3;
+    font-family: inherit;
 }
 /* особенности */
 .specific-title {
@@ -182,6 +183,7 @@ ul {
     color: var(--second-txt-cl);
     background-color: #F5F4FA;
     cursor: pointer;
+    font-family: inherit;
     
 }
 .btn-portfolio:hover,
@@ -203,4 +205,7 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
+}
+.title-hidden {
+    visibility: hidden;
 }
