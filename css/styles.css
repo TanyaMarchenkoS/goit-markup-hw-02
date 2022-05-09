@@ -1,6 +1,7 @@
 :root {
     --main-txt-cl: #757575;
     --second-txt-cl: #212121;
+    --accent-color: #2196F3;
 }
 /* Главная */
 body {
@@ -22,14 +23,14 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* убирает маркировки возле списка */
 ul {
     list-style: none;
 }
 /* блок навигации */
-.link  {
+.site-nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,21 +38,21 @@ ul {
     color: var(--second-txt-cl);
     text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: var(--accent-color);
 }
-.site-nav .link.current {
-    color: #2196F3;
+.site-nav-link.current {
+    color: var(--accent-color);
 }
 /* контакти */
-.contacts .link-mailto:hover,
-.contacts .link-mailto:focus {
-    color: #2196F3;
+.contacts-link-mailto:hover,
+.contacts-link-mailto:focus {
+    color: var(--accent-color);
 }
 
-.contact-tel,
-.link-mailto {
+.contacts-link-mailto,
+.contacts-link-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -78,8 +79,9 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     font-family: inherit;
+    cursor: pointer;
 }
 /* особенности */
 .specific-title {
@@ -110,7 +112,6 @@ ul {
      background-color: #F5F4FA;
  }
  .team-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -144,7 +145,7 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .logo-white {
@@ -156,21 +157,21 @@ ul {
     color: #FFFFFF;
 }
 .footer-address{
+    font-family: 'Roboto';
     color: #FFFFFF;
     font-style: normal;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .footer-tel,
 .footer-mailto {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
 }
 
 /* Main portfolio */
@@ -189,7 +190,7 @@ ul {
 .btn-portfolio:hover,
 .btn-portfolio:focus {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .portfolio-title {
